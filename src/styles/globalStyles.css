@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.header_navigation {
+  background-color: aqua;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.header_navigation_list_item {
+  display: inline;
+  padding: 1rem;
+}
