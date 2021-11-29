@@ -3,15 +3,48 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  color:white;
+  font-family: space-mono, mono;
+}
+
+html{
+  background-color: #212121;
 }
 
 .header_navigation {
-  background-color: aqua;
   margin: 1rem;
   padding: 1rem;
+  text-align: center;
 }
 
 .header_navigation_list_item {
   display: inline;
   padding: 1rem;
+}
+
+a{
+  font-size: 1.5rem;
+  color:white;
+}
+
+a:link {
+  text-decoration: dotted;
+  color:red;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: dashed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: solid;
+} 
+
+h1 {
+  font-size: 3rem;
 }
