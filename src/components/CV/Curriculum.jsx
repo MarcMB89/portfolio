@@ -3,7 +3,7 @@ import React from 'react';
 const CV = function CV() {
   return (
     <div>
-      <p>Hola soy un cv</p>
+      <p>CV</p>
     </div>
   );
 };
