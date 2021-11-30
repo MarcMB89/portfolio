@@ -20,6 +20,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/no-unescaped-entities': ['error', { forbid: ['>', '}'] }],
     'import/no-named-as-default-member': 0,
     'import/no-named-as-default': 0,
     'comma-dangle': [2, 'never'],
