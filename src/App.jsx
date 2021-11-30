@@ -3,14 +3,16 @@ import NavBar from './components/NavigationBar/NavigationBar';
 import CV from './components/CV/Curriculum';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 const App = function App() {
   return (
     <div className="App">
       <NavBar />
-      <h1>Marc Martín Barrios</h1>
-      <CV id="cv" />
+      <h2 className="construction">UNDER CONSTRUCTION</h2>
       <About id="about" />
+      <Projects id="projects" />
+      <CV id="cv" />
       <Contact id="contact" />
     </div>
   );
