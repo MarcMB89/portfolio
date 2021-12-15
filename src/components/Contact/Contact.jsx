@@ -2,6 +2,9 @@ import React from 'react';
 
 const Contact = function contact() {
   return (
+    <p>footer</p>
+    /*
+
     <footer>
       <h2>Contact info</h2>
       <p>Email: </p>
@@ -31,7 +34,9 @@ const Contact = function contact() {
           https://www.linkedin.com/in/marc-mart%C3%ADn-barrios/
         </a>
       </address>
+
     </footer>
+*/
   );
 };
 

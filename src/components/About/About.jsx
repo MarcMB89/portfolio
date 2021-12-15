@@ -2,9 +2,10 @@ import React from 'react';
 
 const About = function About() {
   return (
+    <p>About</p>
+    /*
     <div className="about_container">
       <section className="about_title">
-        <h1>Marc Martín Barrios</h1>
         <h2>About</h2>
       </section>
       <section className="about_first-section">
@@ -33,6 +34,7 @@ const About = function About() {
         </article>
       </section>
     </div>
+    */
   );
 };
 
