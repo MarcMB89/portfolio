@@ -2,22 +2,15 @@ import React from 'react';
 
 const About = function About() {
   return (
-    <p>About</p>
+    <div>...</div>
     /*
     <div className="about_container">
-      <section className="about_title">
-        <h2>About</h2>
-      </section>
-      <section className="about_first-section">
-        <img
-          className="about_profile-photo"
-          src="https://avatars.githubusercontent.com/u/78495996?v=4"
-          alt="Marc Martín Barrios profile pic"
-        />
-        <article className="about_first-section_description">
-          My name is Marc, I'm 32 years old and a passionate for software development
-        </article>
-      </section>
+
+      <h2>About</h2>
+      <article className="about_first-section_description">
+        My name is Marc, I'm 32 years old and a passionate for software development
+      </article>
+
       <section className="about_second-section">
         <article className="about_second-section_interests">
           I'm specially interested in Mobile App and web development

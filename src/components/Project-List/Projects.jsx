@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = function projects() {
   return (
-    <p>List of projects</p>
+    <div>List of projects</div>
     /*
     <div>
       <h2>List of projects</h2>
