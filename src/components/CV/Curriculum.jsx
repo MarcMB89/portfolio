@@ -2,7 +2,7 @@ import React from 'react';
 
 const CV = function CV() {
   return (
-    <p>CV</p>
+    <div>CV</div>
     /*
     <div>
       <h2>CV</h2>
