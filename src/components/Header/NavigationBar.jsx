@@ -20,21 +20,21 @@ const Header = function navBar() {
           </Link>
           <Link
             to="/projects"
-            key={1}
+            key={2}
           >
             Projects
           </Link>
           <Link
             to="/cv"
-            key={1}
+            key={3}
           >
             CV
           </Link>
           <Link
             to="/contact"
-            key={1}
+            key={4}
           >
-            contact
+            Contact
           </Link>
         </ul>
       </nav>
