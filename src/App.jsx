@@ -1,20 +1,29 @@
 import React from 'react';
-import NavBar from './components/Header/NavigationBar';
-import CV from './components/CV/Curriculum';
-import Contact from './components/Contact/Contact';
+import {
+  BrowserRouter as Router, Route, Routes
+} from 'react-router-dom';
+
+import Header from './components/Header/NavigationBar';
 import About from './components/About/About';
 import Projects from './components/Project-List/Projects';
+import CV from './components/CV/Curriculum';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 const App = function App() {
   return (
     <div className="App">
-      <NavBar />
-      <About id="about" />
-      <Projects id="projects" />
-      <CV id="cv" />
-      <Contact id="contact" />
-      <Footer is="footer" />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<App />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/cv" element={<CV />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 };
