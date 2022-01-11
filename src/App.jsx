@@ -9,7 +9,6 @@ import Projects from './components/Project-List/Projects';
 import CV from './components/CV/Curriculum';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import NotFound from './components/Not-found/Not-found';
 
 const App = function App() {
   return (
@@ -21,7 +20,6 @@ const App = function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/contact" element={<Contact />} />
-          <Route element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
