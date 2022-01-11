@@ -6,31 +6,37 @@ const Header = function navBar() {
   return (
     <header className="header__desktop">
       <nav className="header__navigation">
-        <h1 className="header__navigation-title">
-          <a href="http://localhost:3000/portfolio">
-            MARC MARTÍN BARRIOS
-          </a>
-        </h1>
+        <Link
+          className="header__navigation-title"
+          to="/"
+          key={0}
+        >
+          MARC MARTÍN BARRIOS
+        </Link>
         <ul className="header__navigation-list">
           <Link
+            className="header__navigation-list-item"
             to="/about"
             key={1}
           >
             About
           </Link>
           <Link
+            className="header__navigation-list-item"
             to="/projects"
             key={2}
           >
             Projects
           </Link>
           <Link
+            className="header__navigation-list-item"
             to="/cv"
             key={3}
           >
             CV
           </Link>
           <Link
+            className="header__navigation-list-item"
             to="/contact"
             key={4}
           >
