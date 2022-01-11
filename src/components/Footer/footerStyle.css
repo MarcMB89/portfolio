@@ -1,0 +1,19 @@
+.footer__title {
+    font-size: 0.75rem;
+}
+
+footer {
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
