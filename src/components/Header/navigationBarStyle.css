@@ -12,7 +12,8 @@
 .header__navigation-title {
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 1.5rem 1rem 1rem 5rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 0 0 0 5rem;
 }
 
 .header__navigation-list {
@@ -49,5 +50,5 @@ a:active {
 .header__navigation-list-item:hover {
   text-decoration: none;
   background-color: hsla(180, 43%, 39%, 80%);
-  border-radius: 15%;	
+  border-radius: 20%;	
 }
