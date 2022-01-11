@@ -13,7 +13,6 @@
   font-size: 1.5rem;
   font-weight: 400;
   padding: 1.5rem 1rem 1rem 5rem;
-  color: white;
 }
 
 .header__navigation-list {
@@ -21,17 +20,17 @@
   cursor: pointer;
   list-style: none;
   margin-right: 5rem;
+
 }
 
 .header__navigation-list-item {
-  display: inline-block;
+  display:inline-flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
   padding: 0 1.5rem;
-}
-
-a{
   font-size: 1.2rem;
-  color:white;
-  padding: 0.8rem;  
+  height: 2rem;
 }
 
 a:link {
@@ -47,7 +46,7 @@ a:active {
   text-decoration: solid;
 } 
 
-.header__navigation-list-item a:hover {
+.header__navigation-list-item:hover {
   text-decoration: none;
   background-color: hsla(180, 43%, 39%, 80%);
   border-radius: 15%;	
