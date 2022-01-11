@@ -2,7 +2,9 @@ import React from 'react';
 
 const Projects = function projects() {
   return (
-    <div>List of projects</div>
+    <div>
+      <p className="about__title">project</p>
+    </div>
     /*
     <div>
       <h2>List of projects</h2>

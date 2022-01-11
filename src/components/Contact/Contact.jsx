@@ -1,10 +1,17 @@
+/* eslint-disable max-len */
 import React from 'react';
+import './contactStyle.css';
 
 const Contact = function contact() {
   return (
+    <div>
+      <p className="about__title">contact</p>
+    </div>
+    /*
     <section className="contact_section">
       <h2 className="contact_section_title">Contact me</h2>
       <section className="contact_section_content">
+
         <aside className="contact_section_media">
           <a href="https://github.com/MarcMB89">
             <svg xmlns="http://www.w3.org/2000/svg" width="17mm" height="17mm" viewBox="0 0 59.676102 56.312347">
@@ -31,7 +38,9 @@ const Contact = function contact() {
           </address>
         </article>
       </section>
+
     </section>
+    */
   );
 };
 
