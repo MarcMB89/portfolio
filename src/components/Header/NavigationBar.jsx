@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './navigationBarStyle.css';
 
 const Header = function navBar() {
@@ -8,7 +8,8 @@ const Header = function navBar() {
       <nav className="header__navigation">
         <Link
           className="header__navigation-title"
-          to="/"
+          smooth
+          to="#home"
           key={0}
         >
           MARC MARTÍN BARRIOS
@@ -16,28 +17,32 @@ const Header = function navBar() {
         <ul className="header__navigation-list">
           <Link
             className="header__navigation-list-item"
-            to="/about"
+            smooth
+            to="#about"
             key={1}
           >
             About
           </Link>
           <Link
             className="header__navigation-list-item"
-            to="/projects"
+            smooth
+            to="#projects"
             key={2}
           >
             Projects
           </Link>
           <Link
             className="header__navigation-list-item"
-            to="/cv"
+            smooth
+            to="#cv"
             key={3}
           >
             CV
           </Link>
           <Link
             className="header__navigation-list-item"
-            to="/contact"
+            smooth
+            to="#contact"
             key={4}
           >
             Contact
