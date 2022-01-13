@@ -1,8 +1,9 @@
 import React from 'react';
+import './projects.css';
 
 const Projects = function projects() {
   return (
-    <div>
+    <div id="projects" className="projects__section">
       <p className="about__title">project</p>
     </div>
     /*

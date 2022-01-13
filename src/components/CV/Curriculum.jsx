@@ -1,8 +1,9 @@
 import React from 'react';
+import './curriculum.css';
 
 const CV = function CV() {
   return (
-    <div>
+    <div id="cv" className="cv__section">
       <p className="about__title">CV</p>
     </div>
     /*

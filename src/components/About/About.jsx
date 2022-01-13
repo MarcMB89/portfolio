@@ -3,13 +3,13 @@ import './aboutStyle.css';
 
 const About = function About() {
   return (
-    <div>
-      <p className="about__title">about</p>
-    </div>
-
-  /*
-    <div className="about_container">
-      <h2>About</h2>
+    <div className="about__container">
+      <h2
+        className="about__title"
+        id="about"
+      >
+        About
+      </h2>
       <article className="about_first-section_description">
         My name is Marc, I'm 32 years old and a passionate for software development
       </article>
@@ -29,9 +29,7 @@ const About = function About() {
           I specialize in Javascript, React and React-Native. I use MERN technologies.
         </article>
       </section>
-
     </div>
-  */
   );
 };
 

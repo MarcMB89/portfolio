@@ -3,7 +3,7 @@ import './footerStyle.css';
 
 const Footer = function footer() {
   return (
-    <footer>
+    <footer className="footer__container">
       <a
         className="footer__title"
         href="https://github.com/MarcMB89/portfolio"
