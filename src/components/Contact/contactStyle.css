@@ -1,13 +1,13 @@
 .contact_section {
     margin: 0 5rem 1rem 5rem;
     width: auto;
+    border: 1px solid white;
   }
   
   input {
     color:hsla(0, 0%, 0%, 90%);
     caret-color: red;  
   }
-  
   
   .contact_section_title {
     font-size: 3rem;
