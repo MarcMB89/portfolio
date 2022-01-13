@@ -1,0 +1,9 @@
+.arrow-wrapper {
+    display: block;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 0.9375rem;
+    z-index: 99;
+    cursor: pointer;
+    
+}
