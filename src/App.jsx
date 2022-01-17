@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 
 import Header from './components/Header/NavigationBar';
-import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Project-List/Projects';
 import CV from './components/CV/Curriculum';
@@ -17,7 +16,6 @@ const App = function App() {
   return (
     <Router>
       <Header />
-      <Home />
       <About />
       <Projects />
       <CV />
