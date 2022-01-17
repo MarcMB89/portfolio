@@ -6,14 +6,9 @@ const Header = function navBar() {
   return (
     <header className="header__desktop">
       <nav className="header__navigation">
-        <Link
-          className="header__navigation-title"
-          smooth
-          to="#home"
-          key={0}
-        >
+        <h1 className="header__navigation-title">
           MARC MARTÍN BARRIOS
-        </Link>
+        </h1>
         <ul className="header__navigation-list">
           <Link
             className="header__navigation-list-item"
