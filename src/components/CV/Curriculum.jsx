@@ -4,7 +4,7 @@ import './curriculum.css';
 const CV = function CV() {
   return (
     <div id="cv" className="cv__section">
-      <p className="about__title">CV</p>
+      <p className="cv__title">CV</p>
     </div>
     /*
     <div>

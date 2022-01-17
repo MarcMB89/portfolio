@@ -4,7 +4,7 @@ import './projects.css';
 const Projects = function projects() {
   return (
     <div id="projects" className="projects__section">
-      <p className="about__title">project</p>
+      <p className="projects__title">Projects</p>
     </div>
     /*
     <div>

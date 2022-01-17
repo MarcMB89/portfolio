@@ -17,8 +17,8 @@ const Home = function home() {
       </section>
       <section className="home_first-section_description">
         <article>
-          I'm a passionate for software development
-          I'm specially interested in Mobile App and web development
+          I'm passionate for software development, specializing in building Mobile Apps
+          and websites, creating a great User Interface and Experience.
           I specialize in Javascript, React and React-Native. I use MERN technologies.
         </article>
       </section>

@@ -45,6 +45,13 @@ const Header = function navBar() {
         </ul>
       </nav>
     </header>
+    /*
+      <div className="navbar__burguer-menu" hidden>
+      <span className="navbar__burguer-menu--dash1" />
+      <span className="navbar__burguer-menu--dash2" />
+      <span className="navbar__burguer-menu--dash3" />
+    </div>
+    */
   );
 };
 
