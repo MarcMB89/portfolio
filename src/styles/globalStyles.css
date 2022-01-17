@@ -12,10 +12,6 @@ html{
   background-color: #212121;
 }
 
-.about__title {
-  margin: 100px;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
