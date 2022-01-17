@@ -4,10 +4,10 @@ import './contactStyle.css';
 
 const Contact = function contact() {
   return (
-    <section className="contact_section" id="contact">
-      <h2 className="contact_section_title">Contact me</h2>
-      <section className="contact_section_content">
-        <aside className="contact_section_media">
+    <section className="contact__section" id="contact">
+      <h2 className="contact__section-title">Contact me</h2>
+      <section className="contact__section-content">
+        <aside className="contact__section-media">
           <a href="https://github.com/MarcMB89">
             <svg xmlns="http://www.w3.org/2000/svg" width="17mm" height="17mm" viewBox="0 0 59.676102 56.312347">
               <path d="m 10396.989,-1745.4157 -0.104,-23.1019 c 0,0 -19.218,-2.4039 -27.508,-18.0133 -8.291,-15.6094 -22.479,-25.5058 -22.479,-25.5058 l 15.159,-7.4925 22.999,22.3839 14.465,5.5257 2.116,-22.0717 c 0,0 -30.977,-3.2155 -28.791,-32.6862 2.185,-29.4706 11.724,-65.3411 11.724,-65.3411 l 23.138,19.6055 32.989,-1.3736 26.607,-22.0093 8.429,35.2461 c 0,0 11.343,19.8864 6.105,36.3699 -5.238,16.4836 -30.63,29.2521 -30.63,29.2521 l 6.973,67.0582 c 0,0 39.372,-2.9971 56.092,-39.3358 16.72,-36.3388 17.24,-113.1996 -26.954,-137.0196 -44.193,-23.82 -110.796,-33.1857 -141.774,11.7695 -30.977,44.9552 -32.191,112.263 -5.654,136.0518 26.537,23.7888 57.098,30.6881 57.098,30.6881 z" fill="#fff" paintOrder="markers stroke fill" transform="translate(-116.81674,13.793082) matrix(0.26458333,0,0,0.26458333,-2611.7826,502.76203)" />
@@ -21,7 +21,7 @@ const Contact = function contact() {
             </svg>
           </a>
         </aside>
-        <article className="contact_section_description">
+        <article className="contact__section-description">
           I'm currently looking for new opportunities as a full-stack developer.
           If you are interested in my profile or have any questions about my work,
           don't hesitate to contact me!
