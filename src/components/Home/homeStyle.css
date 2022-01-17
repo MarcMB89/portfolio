@@ -1,8 +1,8 @@
 .home__container {
-  border: 2px solid white;
   margin: 4.05rem 5rem 1rem 5rem;
   width: auto;
   height: 40rem;
+  border: 1px solid white;
 }
 
 .home__title-section{
@@ -12,18 +12,15 @@
   height: fit-content;
   margin: 0 auto;
   margin-right: 30rem;
-  border: 1px solid blue;
 }
 
 .home__title{
-  border: 1px solid green;
   padding-top: 0.5rem;
 }
 
 .home__title-greeting{
   font-size: 1rem;
-  padding-top: 3rem;
-  color: white;
+  padding-top: 5rem;
 }
 
 .home__title-name{
@@ -46,15 +43,11 @@
   
 .home_first-section_description{
   color: white;
-  text-align: right;
-  width: 100%;
+  text-align: left;
+  width: 50%;
   font-size: 1rem;
-  padding: 0 5rem 1rem 5rem;
+  padding: 1rem 5rem 1rem 3rem;
   font-size: bold;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: 1px solid darkblue;
 }
   
 .home_second-section_interests{

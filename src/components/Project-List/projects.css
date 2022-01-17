@@ -1,5 +1,13 @@
 .projects__section {
-    margin: 0 5rem 1rem 5rem;
-    width: auto;
-    border: 1px solid white;
+  margin: 0 5rem 1rem 5rem;
+  width: auto;
+  border: 1px solid white;
   }
+
+.projects__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsla(180, 43%, 39%, 80%);
+  margin: 1rem 1rem 1rem 0;
+  width: auto;
+}
