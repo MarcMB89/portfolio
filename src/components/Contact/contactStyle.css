@@ -1,41 +1,36 @@
-.contact_section {
+.contact__section {
     margin: 0 5rem 1rem 5rem;
     width: auto;
     border: 1px solid white;
   }
   
-  input {
-    color:hsla(0, 0%, 0%, 90%);
-    caret-color: red;  
-  }
-  
-  .contact_section_title {
+  .contact__section-title {
     font-size: 3rem;
     color: hsla(180, 43%, 39%, 80%);
     margin: 1rem 1rem 1rem 0;
     width: auto;
   }
   
-  .contact_section_content {
+  .contact__section-content {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   
-  .contact_section_media,
-  .contact_section_media a{
+  .contact__section-media,
+  .contact__section-media a{
     display: flex;
     flex-direction: column;
     width: 6rem;
     align-items: center;
   }
   
-  .contact_section_media a {
+  .contact__section-media a {
     width: 100%;
     margin: 0 0 0 2rem;
   }
   
-  .contact_section_description {
+  .contact__section-description {
     padding: 3rem;
     font-size: 2rem;
     display: flex;
@@ -45,8 +40,8 @@
     text-align: center;
   }
   
-  .contact_section_description p, 
-  .contact_section_description address{
+  .contact__section-description p, 
+  .contact__section-description address{
     width: 100%;
     margin: 2rem 0 0 0;
     padding: 0 0 0 2rem;
@@ -54,12 +49,12 @@
     text-align: left;
   }
   
-  .contact_section_description p {
+  .contact__section-description p {
     font-size: 1.5rem;
     color: hsla(180, 43%, 39%, 80%);
   }
   
-  .contact_section_description address {
+  .contact__section-description address {
     margin: 0.8rem 0 1rem 0;
     padding-left: 3rem;
   }
