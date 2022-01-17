@@ -7,13 +7,13 @@ const Header = function navBar() {
     <header className="header__desktop">
       <nav className="header__navigation">
         <h1 className="header__navigation-title">
-          MARC MARTÍN BARRIOS
+          UNDER CONSTRUCTION
         </h1>
         <ul className="header__navigation-list">
           <Link
             className="header__navigation-list-item"
             smooth
-            to="#about"
+            to="#home"
             key={1}
           >
             About
