@@ -1,11 +1,10 @@
-.header__navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: hsla(0, 0%, 0%, 90%)	;
-  width: 100%;
-  position: fixed;
+.header__navigation-desktop{
   top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  background-color: hsla(0, 0%, 0%, 90%)	;
+  position: fixed;
 }
 
 /* BURGUER MENU */
@@ -50,11 +49,13 @@
 }
 
 .header__navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
   cursor: pointer;
   list-style: none;
   margin-right: 5rem;
-
 }
 
 .header__navigation-list-item {
