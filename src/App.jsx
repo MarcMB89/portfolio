@@ -7,7 +7,6 @@ import Header from './components/Header/NavigationBar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Project-List/Projects';
-import CV from './components/CV/Curriculum';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import GoBackButton from './components/ScrollBackToTop/ScrollBack';
@@ -19,7 +18,6 @@ const App = function App() {
       <Home />
       <About />
       <Projects />
-      <CV />
       <Contact />
       <GoBackButton />
       <Footer />
