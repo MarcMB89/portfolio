@@ -1,40 +1,47 @@
-.home__container {
+/*.home__container {
   margin: 4.05rem 5rem 1rem 5rem;
   width: auto;
   height: 40rem;
+  border: 1px solid white;
+}*/
+
+.home__container {
+  min-width: 100%;
+  margin: 0 1rem;
   border: 1px solid white;
 }
 
 .home__title-section{
   display: flex;
   flex-direction: column;
-  width: 52rem;
   height: fit-content;
-  margin: 0 auto;
-  margin-right: 30rem;
-  margin-left: 3rem;
+  border: 1px solid blue;
 }
 
 .home__title{
   padding-top: 0.5rem;
+  border: 1px solid green;
 }
 
 .home__title-greeting{
   font-size: 1rem;
   padding-top: 5rem;
+  border: 1px solid pink;
 }
 
 .home__title-name{
-  font-size: 4.3rem;
+  font-size: 2rem;
   padding-top: 1rem;
   color: hsla(180, 43%, 39%, 80%);
+  border: 1px solid black;
 }
 
 .home__title-job{
-  font-size: 3.5rem;
+  font-size: 2rem;
   padding-top: 1.5rem;
   color: hsla(0, 0%, 97%, 60%);
   margin-bottom: 2rem;
+  border: 1px solid purple;
 }
 
 .home_first-section{
@@ -78,3 +85,14 @@
   display:block;
   border: 1px solid rosybrown;
 }
+
+
+@media (min-width: 1px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 20000px) {
+  .navbar__burguer-menu-portrait {
+    display: none;
+  }
+}
+

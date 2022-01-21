@@ -1,5 +1,5 @@
-import React from 'react';
-import './aboutStyle.css';
+import React from 'react';/*
+import './aboutStyle.css'; */
 
 const About = function about() {
   return (
