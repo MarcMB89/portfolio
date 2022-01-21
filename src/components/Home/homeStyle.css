@@ -6,8 +6,7 @@
 }*/
 
 .home__container {
-  min-width: 100%;
-  margin: 0 1rem;
+  margin: 0 .5rem 3rem 0.5rem;
   border: 1px solid white;
 }
 
@@ -15,47 +14,30 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
-  border: 1px solid blue;
-}
-
-.home__title{
-  padding-top: 0.5rem;
-  border: 1px solid green;
 }
 
 .home__title-greeting{
   font-size: 1rem;
-  padding-top: 5rem;
-  border: 1px solid pink;
+  padding: 5rem 0 1rem .5rem;
 }
 
 .home__title-name{
-  font-size: 2rem;
-  padding-top: 1rem;
+  font-size: 2.5rem;
+  padding: .5rem;
   color: hsla(180, 43%, 39%, 80%);
-  border: 1px solid black;
 }
 
 .home__title-job{
   font-size: 2rem;
-  padding-top: 1.5rem;
+  padding: 0 .5rem;
   color: hsla(0, 0%, 97%, 60%);
-  margin-bottom: 2rem;
-  border: 1px solid purple;
 }
 
-.home_first-section{
-  display: flex;
-  border: 1px solid red;
-}
-  
 .home_first-section_description{
-  color: white;
-  text-align: left;
-  width: 50%;
   font-size: 1rem;
-  padding: 1rem 5rem 1rem 3rem;
-  font-size: bold;
+  text-align: justify;
+  margin: 1rem;
+  border: 1px solid chocolate;
 }
   
 .home_second-section_interests{
