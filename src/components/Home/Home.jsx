@@ -1,6 +1,6 @@
-import React from 'react';/*
+import React from 'react';
 import './homeStyle.css';
-*/
+
 const Home = function home() {
   return (
     <section className="home__container">

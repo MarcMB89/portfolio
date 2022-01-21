@@ -1,6 +1,5 @@
-import React from 'react';/*
-import './projects.css'; */
-import plantdroid from './plantdroid_screenshot.jpg';
+import React from 'react';
+import './projects.css';
 
 const Projects = function projects() {
   return (
@@ -16,7 +15,6 @@ const Projects = function projects() {
           vital info about how to take care of your plants at home. It uses a database in which
           there's stored all the info you might need.
         </p>
-        <img className="projects__plantdroid-img" src={plantdroid} alt="Plantdroid" />
       </section>
     </div>
 

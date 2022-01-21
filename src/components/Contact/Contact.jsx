@@ -1,6 +1,6 @@
-import React from 'react';/*
+import React from 'react';
 import './contactStyle.css';
-*/
+
 const Contact = function contact() {
   return (
     <section className="contact__section" id="contact">
