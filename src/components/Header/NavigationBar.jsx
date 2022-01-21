@@ -4,6 +4,7 @@ import './navigationBarStyle.css';
 
 const Header = function navBar() {
   let previousScrollPosition = window.pageYOffset;
+
   window.onscroll = function hideNavbar() {
     const currentScrollPosition = window.pageYOffset;
     if (previousScrollPosition > currentScrollPosition) {
@@ -13,13 +14,14 @@ const Header = function navBar() {
     }
     previousScrollPosition = currentScrollPosition;
   };
+
   return (
     <header>
-      <nav className="header__navigation-desktop" id="navbar">
+      <nav className="header__navigation-desktop overlay" id="navbar">
+        <h1 className="header__navigation-title">
+          M
+        </h1>
         <ul className="header__navigation-list">
-          <h1 className="header__navigation-title">
-            UNDER CONSTRUCTION
-          </h1>
           <Link
             className="header__navigation-list-item"
             smooth
@@ -39,29 +41,20 @@ const Header = function navBar() {
           <Link
             className="header__navigation-list-item"
             smooth
-            to="#cv"
-            key={3}
-          >
-            CV
-          </Link>
-          <Link
-            className="header__navigation-list-item"
-            smooth
             to="#contact"
             key={4}
           >
             Contact
           </Link>
         </ul>
+        <section className="navbar__burguer-menu">
+          <span className="navbar__burguer-menu--dash1" />
+          <span className="navbar__burguer-menu--dash2" />
+          <span className="navbar__burguer-menu--dash3" />
+        </section>
       </nav>
     </header>
-    /*
-      <div className="navbar__burguer-menu" hidden>
-      <span className="navbar__burguer-menu--dash1" />
-      <span className="navbar__burguer-menu--dash2" />
-      <span className="navbar__burguer-menu--dash3" />
-    </div>
-    */
+
   );
 };
 

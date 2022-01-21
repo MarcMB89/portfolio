@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';/*
 import './footerStyle.css';
-
+*/
 const Footer = function footer() {
   return (
     <footer className="footer__container">

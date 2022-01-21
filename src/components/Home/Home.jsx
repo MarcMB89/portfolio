@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';/*
 import './homeStyle.css';
-
+*/
 const Home = function home() {
   return (
     <section className="home__container">
@@ -17,9 +17,8 @@ const Home = function home() {
       </section>
       <section className="home_first-section_description">
         <article>
-          I'm a software developer, specializing in building Mobile Apps
+          I'm a web developer, specializing in building Mobile Apps
           and websites, creating a great User Interface and Experience.
-          I specialize in Javascript, React and React-Native.
         </article>
       </section>
     </section>
