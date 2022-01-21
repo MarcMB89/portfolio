@@ -1,66 +1,32 @@
 .header__navigation-desktop{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: fixed;
   top: 0;
+  height: 3rem;
   width: 100%;
-  display: block;
   transition: top 0.3s;
   background-color: hsla(0, 0%, 0%, 90%)	;
-  position: fixed;
 }
-
-/* BURGUER MENU */
-
-.navbar__burguer-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: auto;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.navbar__burguer-menu--dash1 {
-  height: 0.1875rem;
-  width: 1.5rem;
-  margin: 0 1.75rem 0.083rem 0;
-  background: white;
-}
-
-.navbar__burguer-menu--dash2 {
-  height: 0.1875rem;
-  width: 1.1875rem;
-  margin: 0 2.0625rem 0 0;
-  background: white;
-}
-
-.navbar__burguer-menu--dash3 {
-  height: 0.1875rem;
-  width: 0.95rem;
-  margin: 0.083rem 2.0625rem 0 0;
-  background: white;
-}
-
-/*--------------------------------------------*/
 
 .header__navigation-title {
+  width: fit-content;
+  margin-left: 5rem;
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 1.5rem 1rem 1rem 1rem;
-  margin: 0 0 0 5rem;
 }
 
 .header__navigation-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  text-decoration: none;
   cursor: pointer;
   list-style: none;
-  margin-right: 5rem;
 }
 
 .header__navigation-list-item {
-  display:inline-flex;
-  flex-direction:row;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 1.5rem;
@@ -85,4 +51,49 @@ a:active {
   text-decoration: none;
   background-color: hsla(180, 43%, 39%, 80%);
   border-radius: 20%;	
+}
+
+
+/* BURGUER MENU */
+
+.navbar__burguer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+.navbar__burguer-menu--dash1 {
+  height: 0.1875rem;
+  width: 1.5rem;
+  background: white;
+}
+
+.navbar__burguer-menu--dash2 {
+  height: 0.1875rem;
+  width: 1.1875rem;
+  margin-top: 0.09375rem;
+  background: white;
+}
+
+.navbar__burguer-menu--dash3 {
+  height: 0.1875rem;
+  width: 0.95rem;
+  margin-top: 0.09375rem;
+  background: white;
+}
+
+/*--------------------------------------------*/
+
+@media (min-width: 150px) and (max-width: 768px) {
+  .header__navigation-list {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 20000px) {
+  .navbar__burguer-menu {
+    display: none;
+  }
 }

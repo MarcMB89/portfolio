@@ -11,3 +11,8 @@
   margin: 1rem 1rem 1rem 0;
   width: auto;
 }
+
+.projects__plantdroid-img {
+  width: 3.5rem;
+  height: 8rem;
+}
