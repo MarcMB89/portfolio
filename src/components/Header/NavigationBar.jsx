@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './navigationBarStyle.css';
+import logo from './logo.svg';
 
 const Header = function navBar() {
   let previousScrollPosition = window.pageYOffset;
@@ -17,10 +18,8 @@ const Header = function navBar() {
 
   return (
     <header>
-      <nav className="header__navigation-desktop overlay" id="navbar">
-        <h1 className="header__navigation-title">
-          M
-        </h1>
+      <nav className="header__navigation-desktop" id="navbar">
+        <img src={logo} alt="M" className="header__navigation-title" />
         <ul className="header__navigation-list">
           <Link
             className="header__navigation-list-item"
@@ -47,7 +46,7 @@ const Header = function navBar() {
             Contact
           </Link>
         </ul>
-        <section className="navbar__burguer-menu">
+        <section className="navbar__burguer-menu-portrait">
           <span className="navbar__burguer-menu--dash1" />
           <span className="navbar__burguer-menu--dash2" />
           <span className="navbar__burguer-menu--dash3" />
