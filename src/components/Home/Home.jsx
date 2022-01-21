@@ -16,16 +16,18 @@ const Home = function home() {
 
       </section>
       <section className="home_section_description">
-        <p>
-          I'm a web developer, specializing in building Mobile Apps
-          and websites, creating a great User Interface and Experience.
-        </p>
-      </section>
-      <section className="home_section_description">
-        <p>
-          I'm currently working as a freelancer, always aiming to improve,
-          gain experience and collaborate in awesome projects.
-        </p>
+        <section className="home_section_description-first">
+          <p>
+            I'm a web developer, specializing in building Mobile Apps
+            and websites, creating a great User Interface and Experience.
+          </p>
+        </section>
+        <section className="home_section_description-second">
+          <p>
+            I'm currently working as a freelancer, always aiming to improve,
+            gain experience and collaborate in awesome projects.
+          </p>
+        </section>
       </section>
     </section>
   );
