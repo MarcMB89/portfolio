@@ -1,5 +1,5 @@
-import React from 'react';/*
-import './aboutStyle.css'; */
+import React from 'react';
+import './aboutStyle.css';
 
 const About = function about() {
   return (
@@ -9,8 +9,10 @@ const About = function about() {
         <p>
           Hi, my name is Marc, I'm a freelance web developer currently based in Barcelona, Spain.
           <br />
+          <br />
           After many years exploring different careers, I came across web development around 2019
           and I realized that is the job I always wanted.
+          <br />
           <br />
           Since then I started studying my myself, reading documentation, practicing,
           taking online courses
@@ -20,7 +22,10 @@ const About = function about() {
           {' '}
           <a href="https://www.switchup.org/rankings/best-bootcamps-barcelona" blank>best bootcamps in Barcelona (according to SwitchUp).</a>
           <br />
+          <br />
           These are some of my favourite technologies that I've been using recently:
+          <br />
+          <br />
           <ul>
             <li>Javascript</li>
             <li>HTML5</li>
