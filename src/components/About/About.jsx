@@ -1,6 +1,6 @@
-import React from 'react';/*
+import React from 'react';
 import './aboutStyle.css';
-*/
+
 const About = function about() {
   return (
     <section className="about__container">
