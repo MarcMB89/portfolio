@@ -1,18 +1,17 @@
-.projects__section {
-  margin: 0 5rem 1rem 5rem;
-  width: auto;
+.projects__container {
+  margin: 0 .5rem 3rem 0.5rem;
   border: 1px solid white;
   }
 
 .projects__title {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  padding: .5rem 1.5rem;
+  margin: 1.5rem 0 .5rem 0;
   color: hsla(180, 43%, 39%, 80%);
-  margin: 1rem 1rem 1rem 0;
-  width: auto;
 }
 
-.projects__plantdroid-img {
-  width: 3.5rem;
-  height: 8rem;
+.projects__project-list {
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 1.5rem;
 }
