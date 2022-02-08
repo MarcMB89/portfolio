@@ -27,6 +27,7 @@
 }
 
 .header__navigation-list-item {
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +52,8 @@ a:active {
 .header__navigation-list-item:hover {
   text-decoration: none;
   background-color: hsla(180, 43%, 39%, 80%);
-  border-radius: 20%;	
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 
