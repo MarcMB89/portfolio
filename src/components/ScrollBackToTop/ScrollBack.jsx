@@ -32,7 +32,6 @@ const GoBackButton = function button() {
         <Link
           onClick={handleScroll}
           className="arrow-wrapper"
-          smooth
           to="#home"
           key={0}
         >
@@ -48,7 +47,6 @@ const GoBackButton = function button() {
               style={{
                 fontSize: '40px'
               }}
-              smooth
               to="#home"
             />
           </Fab>

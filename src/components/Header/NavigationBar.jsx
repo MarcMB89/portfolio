@@ -23,7 +23,6 @@ const Header = function navBar() {
         <ul className="header__navigation-list">
           <Link
             className="header__navigation-list-item"
-            smooth
             to="#about"
             key={1}
           >
@@ -31,7 +30,6 @@ const Header = function navBar() {
           </Link>
           <Link
             className="header__navigation-list-item"
-            smooth
             to="#projects"
             key={2}
           >
@@ -39,7 +37,6 @@ const Header = function navBar() {
           </Link>
           <Link
             className="header__navigation-list-item"
-            smooth
             to="#contact"
             key={4}
           >
