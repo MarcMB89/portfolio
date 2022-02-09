@@ -4,35 +4,23 @@ import './homeStyle.css';
 const Home = function home() {
   return (
     <section className="home__container" id="home">
-      <section className="home__title-section">
-        <h2
-          className="home__title-greeting"
-        >
-          Hi, my name is
-        </h2>
-        <h1 className="home__title-name">Marc Martín Barrios</h1>
-        <h2 className="home__title-job">Front End Web Developer</h2>
-
-      </section>
-      <section className="home_section_description">
-        <section className="home__section__description-text">
-          <section className="home_section_description-first">
-            <p>
-              I'm a web developer, specializing in building Mobile Apps
-              and websites, creating a great User Interface and Experience.
-            </p>
-          </section>
-          <section className="home_section_description-second">
-            <p>
-              I'm currently working as a freelancer, always aiming to improve,
-              gain experience and collaborate in awesome projects.
-            </p>
-          </section>
+      <div className="home__content">
+        <section className="home__title-section">
+          <h2
+            className="home__title-greeting"
+          >
+            Hi, my name is
+          </h2>
+          <h1 className="home__title-name">Marc Martín Barrios</h1>
+          <h2 className="home__title-job">Front End Web Developer</h2>
         </section>
-        {' '}
-
-      </section>
-
+        <section className="home_section_description">
+          <p>
+            I'm a web developer, specializing in building Mobile Apps
+            and websites, creating a great User Interface and Experience.
+          </p>
+        </section>
+      </div>
     </section>
   );
 };
