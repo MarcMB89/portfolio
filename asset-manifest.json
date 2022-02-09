@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.094d8e70.chunk.css",
-    "main.js": "/portfolio/static/js/main.2693dc7e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2693dc7e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a1d19268.chunk.css",
+    "main.js": "/portfolio/static/js/main.4eb28da7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4eb28da7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.8eb7d0b9.chunk.js": "/portfolio/static/js/2.8eb7d0b9.chunk.js",
     "static/js/2.8eb7d0b9.chunk.js.map": "/portfolio/static/js/2.8eb7d0b9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.094d8e70.chunk.css.map": "/portfolio/static/css/main.094d8e70.chunk.css.map",
+    "static/css/main.a1d19268.chunk.css.map": "/portfolio/static/css/main.a1d19268.chunk.css.map",
     "static/js/2.8eb7d0b9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8eb7d0b9.chunk.js.LICENSE.txt",
-    "static/media/logo.2b34846d.svg": "/portfolio/static/media/logo.2b34846d.svg"
+    "static/media/M-main-logo.2b34846d.svg": "/portfolio/static/media/M-main-logo.2b34846d.svg",
+    "static/media/css3-logo.68940139.svg": "/portfolio/static/media/css3-logo.68940139.svg",
+    "static/media/figma-logo.a5dd9f0a.svg": "/portfolio/static/media/figma-logo.a5dd9f0a.svg",
+    "static/media/html5-logo.f8f0b453.svg": "/portfolio/static/media/html5-logo.f8f0b453.svg",
+    "static/media/js-logo.df9a8d65.svg": "/portfolio/static/media/js-logo.df9a8d65.svg",
+    "static/media/malt-logo.30034e52.svg": "/portfolio/static/media/malt-logo.30034e52.svg",
+    "static/media/nodejs-logo.35c8d64a.svg": "/portfolio/static/media/nodejs-logo.35c8d64a.svg",
+    "static/media/react-logo.66039d8e.svg": "/portfolio/static/media/react-logo.66039d8e.svg",
+    "static/media/redux-logo.303d8566.svg": "/portfolio/static/media/redux-logo.303d8566.svg",
+    "static/media/typescript-logo.5f3de512.svg": "/portfolio/static/media/typescript-logo.5f3de512.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.8eb7d0b9.chunk.js",
-    "static/css/main.094d8e70.chunk.css",
-    "static/js/main.2693dc7e.chunk.js"
+    "static/css/main.a1d19268.chunk.css",
+    "static/js/main.4eb28da7.chunk.js"
   ]
 }
