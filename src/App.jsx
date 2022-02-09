@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 
-import Header from './components/Header/NavigationBar';
+import Header from './components/NavBar/NavigationBar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Projects from './components/Project-List/Projects';
+import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import GoBackButton from './components/ScrollBackToTop/ScrollBack';

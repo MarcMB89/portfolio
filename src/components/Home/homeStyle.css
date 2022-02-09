@@ -4,17 +4,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top-left-radius: 10rem;
-  border-bottom-right-radius: 23rem;
   background: rgb(33,33,33);
   background: linear-gradient(15deg, rgba(33,33,33,1) 0%, rgba(52,52,52,1) 50%, rgba(33,33,33,1) 100%);
 }
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 80%;
+}
+
 .home__title-section{
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: fit-content;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 0 1rem;
 }
 
 .home__title-greeting{
@@ -37,24 +43,34 @@
 }
 .home_section_description {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 0 4rem 0;
   justify-content: left;
+  width: fit-content;
+  line-height: 1.3rem;
+  text-align: justify;
+  margin: 3rem 1rem;
+  padding: 0 .5rem;
 }
 
-.home__section__description-text {
-  width: 100%;
-}
-
-.home_section_description-first,
-.home_section_description-second{
+.home__malt-button {
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
   font-size: 1rem;
-  line-height: 1.2rem;
-  text-align: left;
-  margin: 1.6rem 1rem;
-  padding: .5rem;
+  cursor: pointer;
+  background-color: hsla(180, 43%, 39%, 80%);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 5px;
 }
+
+.home__malt-button:hover {
+  background-color: white;
+}
+
 
 @media (min-width: 1px) and (max-width: 768px) {
 }
