@@ -27,6 +27,7 @@
   margin: 0 1rem;
   align-self: center;
 }
+
 .about__description-article,
 .about__description-article p,
 a,
@@ -43,13 +44,10 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  text-align: center;
 }
 
 .about__description-article li{
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-  text-align: center;
-  margin: 0 1rem 0 1.5rem;
+  min-width: 3rem;
 }
