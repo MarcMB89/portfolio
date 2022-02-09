@@ -28,12 +28,17 @@
   align-self: center;
 }
 
+.css-logo {
+  margin-left: 1rem;
+}
+
+
 .about__description-article,
 .about__description-article p,
 a,
 li {
   color: black;
-  padding: 1rem .5rem .5rem .5rem;
+  padding: 1rem .5rem .5rem .8rem;
   line-height: 1.2em;
   text-align: justify;
   list-style: none;

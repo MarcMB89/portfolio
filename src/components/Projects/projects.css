@@ -27,3 +27,8 @@ p {
   text-align: justify;
   height: fit-content;
 }
+
+.projects__project-list {
+  min-width: 80%;
+  border: 1px solid white;
+}

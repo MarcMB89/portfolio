@@ -44,7 +44,7 @@ const About = function about() {
               <p>HTML5</p>
             </li>
             <li>
-              <img src={css3Logo} alt="css3-logo" className="about__tech-logos" />
+              <img src={css3Logo} alt="css3-logo" className="about__tech-logos css-logo" />
               <p>CSS3</p>
             </li>
             <li>
