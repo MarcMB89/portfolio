@@ -1,0 +1,83 @@
+.contact__container {
+  margin: 3rem .5rem 3rem 0.5rem;
+  margin: 0 .5rem 3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsla(180, 43%, 39%, 80%);
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 80%;
+}
+.contact__section-title {
+  color: hsla(180, 43%, 39%, 80%);
+  font-size: 2.5rem;
+  padding: .5rem 1.5rem;
+  margin: 1.5rem 0 .5rem 0;
+}
+
+.contact__section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact__section-media,
+.contact__section-media a{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.contact__section-media a {
+  width: 100%;
+  margin: 0 0 0 2rem;
+}
+
+.contact__section-description {
+  font-size: 1rem;
+  text-align: left;
+  margin: 1.5rem 1rem;
+  padding: .5rem;
+}
+
+.contact__section-description p, 
+.contact__section-description address{
+  font-size: 1rem;
+  text-align: left;
+  margin: 1.5rem 1rem;
+  padding: .5rem;
+}
+
+.contact__section-description p {
+  font-size: 1rem;
+  color: hsla(180, 43%, 39%, 80%);
+}
+
+.contact__section-description address {
+  margin: 0.8rem 0 1rem 0;
+}
+
+.contact__contact-malt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.contact__malt-logo {
+  border: 0.01rem solid hsla(180, 43%, 39%, 40%);
+  border-radius: .3rem;
+  padding: .3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+
+address a:hover {
+  text-decoration: underline;
+}

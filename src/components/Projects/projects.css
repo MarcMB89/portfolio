@@ -1,0 +1,34 @@
+.projects__container {
+  margin: 0 .5rem 3rem 0.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(33,33,33);
+  background: linear-gradient(15deg, rgba(33,33,33,1) 0%, rgba(52,52,52,1) 50%, rgba(33,33,33,1) 100%);
+}
+
+.projects__content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 80%;
+}
+
+.projects__title {
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem 0.5rem 1rem;
+  margin: 1.5rem 0 0.5rem 0;
+  color: hsla(180, 43%, 39%, 80%);
+}
+
+p {
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  line-height: 1.2em;
+  text-align: justify;
+  height: fit-content;
+}
+
+.projects__project-list {
+  min-width: 80%;
+  border: 1px solid white;
+}
